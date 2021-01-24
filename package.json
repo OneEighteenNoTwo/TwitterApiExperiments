@@ -1,0 +1,24 @@
+{
+  "name": "tweet-tube",
+  "version": "0.0.0",
+  "description": "TweetTube",
+  "main": "server.js",
+  "author": {
+    "name": ""
+  },
+  "scripts": {
+    "build": "tsc --build",
+    "clean": "tsc --build --clean"
+  },
+  "devDependencies": {
+    "@types/node": "^8.0.14",
+    "dotenv": "^8.2.0",
+    "typescript": "^3.2.2"
+  },
+  "dependencies": {
+    "file-system": "^2.2.2",
+    "got": "^11.7.0",
+    "oauth-1.0a": "^2.2.6",
+    "readline": "^1.3.0"
+  }
+}
